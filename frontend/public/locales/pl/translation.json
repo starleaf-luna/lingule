@@ -1,0 +1,149 @@
+{
+  "titles": {
+    "how-to": "Poradnik",
+    "credits": "Autorstwo",
+    "settings": "Ustawienia",
+    "score": "Punkty",
+    "stats": "Statystyka",
+    "info": "Informacje"
+  },
+  "tips": {
+    "romanization": "latynizacja",
+    "word": "zagadkowe słowo",
+    "ipa": "wymowa IPA",
+    "meaning": "tłumaczenie",
+    "mapPrompt_tap": "Naciśnij na strzałki, aby zobaczyć mapę",
+    "mapPrompt_click": "Kliknij strzałki, aby zobaczyć mapę",
+    "macro-area": "Makroobszar",
+    "family": "Rodzina",
+    "sub-family": "Podrodzina",
+    "genus": "Rodzaj",
+    "language": "Język",
+    "direction": "Kierunek na mapie"
+  },
+  "buttons": {
+    "guess": "Zgaduj",
+    "close": "Zamknij",
+    "share": "Udostępnij",
+    "copyAlt": "Skopiuj tekst alt."
+  },
+  "lookup": {
+    "description": "Wyszukaj język",
+    "prompt": "Co to za język?"
+  },
+  "guess": {
+    "correct": "prawidłowy",
+    "incorrect": "nieprawidłowy",
+    "description": "odgadnięcie {{guessNum}} z 6: język {{language}} był {{correct}}",
+    "titles": {
+      "result": "Wyniki",
+      "macro-area": "Makroobszar zgadywanego języka",
+      "family": "Rodzina zgadywanego języka",
+      "sub-family": "Podrodzina zgadywanego języka",
+      "genus": "Rodzaj zgadywanego języka",
+      "name": "Nazwa zgadywanego języka",
+      "direction": "Kierunek kompasu ze zgadniętego języka do języka docelowego"
+    }
+  },
+  "share": {
+    "instructions_tap": "Naciśnij i przytrzymaj, aby skopiować obraz; naciśnij \"$t(buttons.copyAlt)\", aby skopiować opis",
+    "instructions_click": "Kliknij PPM i przytrzymaj, aby skopiować obraz; kliknij \"$t(buttons.copyAlt)\", aby skopiować opis",
+    "description": "wyniki lingule dla tej rundy w postaci emoji",
+    "styleChoice": "wybierz styl udostępniania",
+    "textStyle": "Tekst",
+    "spoilerStyle": "Spoiler",
+    "imageStyle": "Obraz",
+    "options": "Udostępnij <1/> opcje",
+    "alt": {
+      "title": "Wyniki Lingule #{{num}}",
+      "word": "Słowem zagadkowym było {{word}}",
+      "score_normal": "Zgadnięto za {{score}}-ym razem",
+      "score_hard": "Zgadnięto za {{score}}-ym razem (tryb trudny)",
+      "miss_normal": "Nie zgadnięto",
+      "miss_hard": "Nie zgadnięto (tryb trudny)",
+      "guessTitle": "Zgadnięcie #{{num}}: ",
+      "guessRight": "język odgadnięty!",
+      "macroArea_right": "poprawny makroobszar, ",
+      "macroArea_wrong": "niepoprawny makroobszar, ",
+      "gotGenus": "poprawny rodzaj, ",
+      "gotSubFamily": "poprawna podrodzina, ",
+      "gotFamily": "poprawna rodzina, ",
+      "missedFamily": "niepoprawna rodzina, ",
+      "direction": "rozwiązanie jest na {{direction}} od zgadnięcia.",
+      "link": "Grano w {{url}}"
+    }
+  },
+  "directions": {
+    "north":  "północ",
+    "north-northeast":  "północ-północny wschód",
+    "northeast":  "północny wschód",
+    "east-northeast":  "wschód-północny wschód",
+    "east":  "wschód",
+    "east-southeast":  "wschód-południowy wschód",
+    "southeast":  "południowy wschód",
+    "south-southeast":  "południe-południowy wschód",
+    "south":  "południe",
+    "south-southwest":  "południe-południowy zachód",
+    "southwest":  "południowy zachód",
+    "west-southwest":  "zachód-południowy zachód",
+    "west":  "zachód",
+    "west-northwest":  "zachód-północny zachód",
+    "northwest":  "północny zachód",
+    "north-northwest":  "północ-północny zachód",
+    "success": "dobrze!"
+  },
+  "stats": {
+    "empty": "Brak danych",
+    "graphLabelA_one": "{{count}}-a gra w ",
+    "graphLabelA_other": "{{count}}-ie w ",
+    "graphLabelB_one": "{{count}}-e odgadnięcie",
+    "graphLabelB_other": "{{count}}-e odgadnięcia",
+    "distribution": "Dystrybucja odgadnięć",
+    "games": "Rundy",
+    "wins": "Wygrane",
+    "hardWins": "Trudne wygrane",
+    "thisStreak": "Streak",
+    "maxStreak": "Najlepszy streak"
+  },
+  "info": {
+    "credit": "Stworzone przez Chase Caster",
+    "code": "Zobacz kod",
+    "tweet": "Tweetuj do mnie",
+    "skeet": "Skeetuj do mnie",
+    "toot": "Tootuj do mnie",
+    "bugs": "Bardziej od komplementów lubię tylko zgłoszenia błędów!",
+    "links": "Stworzyłem też to:",
+    "novle": "Odgadnij tytuł książki z jej pierwszych zdań"
+  },
+  "settings": {
+    "difficulty": "Trudność",
+    "allowMaps_on": "Wyłącz mapy (dla utrudnienia)",
+    "allowMaps_off": "Włącz mapy (nie można wyłączyć w trakcie gry)",
+    "sharing": "Opcje udostępniania",
+    "shareHint": "(użyj \"opcje udostępniania\" w dolnym prawym rogu, aby zmienić)",
+    "shareText": "Tekst emoji",
+    "shareSpoilers": "Tekst emoji z discordowymi spoilerami",
+    "shareImage": "Obraz i tekst alt.",
+    "language": "Język",
+    "languageDisclaimer": "Wszystkie tłumaczenia są z angielskiego i całkowicie amatorskie. Wszystkie poprawki są mile widziane."
+  },
+  "howto": {
+    "intro": "Codziennie dostajesz nowy <1>Lingule</1>. Masz sześć szans na odgadnięcie, z jakiego języka pochodzi zagadkowe słowo.",
+    "target": "słowo docelowe",
+    "romanization": "latynizacja",
+    "ipa": "/wymowa ipa/",
+    "meaning": "tłumaczenie",
+    "afterGuess": "Po każdej szansie, zobaczysz, jak blisko jesteś w sześciu kolumnach:",
+    "macroArea": "Makroobszar (np. \"Ameryka Płn.\" czy \"Eurazja\")",
+    "family": "Rodzina językowa (np. \"indoeuropejski\" czy \"afroazjatycki\")",
+    "subFamily": "Podrodzina językowa (np. \"malajsko-polinezyjski centralno-wschodni\" czy \"benue-kongijski\")",
+    "genus": "Rodzaj języka (np. \"słowiański\" czy \"romański\")",
+    "language": "Język (staje się zielony tylko przy poprawnej odpowiedzi)",
+    "direction": "Kierunek geograficzny od odgadniętego języka do języka docelowego",
+    "isolates": "Języki izolowane lub prawie-izolowane (np. japoński, gruziński, baskijski) nie będą pasowały do innych języków poza makroobszarem.",
+    "multiMatch": "Niektóre słowa mogą istnieć w wielu blisko-spokrewnionych językach. W tym przypadku każdy z tych języków będzie akceptowany, ale tylko jeżeli słowo ma takie samo znaczenie i zapis (nawet jeżeli inaczej brzmi).",
+    "directionMeans": "Kierunek jest kalkulowany na podstawie (przybliżonego) punktu początkowego języka, nawet jeżeli jest on powszechnie używany. Przykładowo, dla angielskiego lokacją jest Anglia, a dla hiszpańskiego - Hiszpania.",
+    "dataSource": "Wszystkie dane językowe pochodzą z <1>World Atlas of Language Structures</1>",
+    "hardMode": "Jeżeli chcesz utrudnić sobie życie, możesz wyłączyć mapę w ustawieniach (<1></1>). Przy twoich wynikach będzie gwiazdka*, żeby pokazać, że jesteś serio."
+  }
+}
